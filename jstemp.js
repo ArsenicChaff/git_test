@@ -22,3 +22,7 @@ for (let temp = 1; temp <= input; temp++) {
         console.log(temp)
     }
 }
+
+
+let inputTwo = parseInt(prompt("enter an integer larger than 0"))
+console.log((inputTwo % 10) == 0)
